@@ -1,0 +1,453 @@
+{
+    "cards": [
+        {
+            "values": [
+                {
+                    "value": "00:12",
+                    "title": "עיכוב ממוצע"
+                },
+                {
+                    "value": null,
+                    "title": null
+                }
+            ],
+            "cardType": 1,
+            "value": 15,
+            "text": "מתעכבים",
+            "showTrend": false,
+            "color": null,
+            "iconName": "hourglass",
+            "percentage": 0,
+            "unitId": "1"
+        },
+        {
+            "values": [
+                {
+                    "value": null,
+                    "title": null
+                },
+                {
+                    "value": null,
+                    "title": null
+                }
+            ],
+            "cardType": 1,
+            "value": 15,
+            "text": "מאושפזים",
+            "showTrend": false,
+            "color": null,
+            "iconName": "bluebad",
+            "percentage": 0,
+            "unitId": "2"
+        },
+        {
+            "values": [
+                {
+                    "value": null,
+                    "title": null
+                },
+                {
+                    "value": null,
+                    "title": null
+                }
+            ],
+            "cardType": 1,
+            "value": 15,
+            "text": "ילדים",
+            "showTrend": false,
+            "color": null,
+            "iconName": "kid",
+            "percentage": 0,
+            "unitId": "3"
+        },
+        {
+            "values": [
+                {
+                    "value": "00:45",
+                    "title": "זמן המתנה"
+                },
+                {
+                    "value": null,
+                    "title": null
+                }
+            ],
+            "cardType": 1,
+            "value": 15,
+            "text": "ממתינים ליעוץ",
+            "showTrend": false,
+            "color": null,
+            "iconName": "pinktask",
+            "percentage": 0,
+            "unitId": "4"
+        },
+        {
+            "values": [
+                {
+                    "value": "00:12",
+                    "title": "מהמכון"
+                },
+                {
+                    "value": "00:12",
+                    "title": "למכון"
+                }
+            ],
+            "cardType": 1,
+            "value": null,
+            "text": "שינועים",
+            "showTrend": false,
+            "color": null,
+            "iconName": "purplebed",
+            "percentage": 0,
+            "unitId": "5"
+        }
+    ],
+    "accelerators": {
+        "icon": "accelerator",
+        "title": "מאיצים",
+        "accelerator": [
+            {
+                "unitId": 1,
+                "title": "שם מעיץ 1",
+                "subtitle": "זמן המתנה",
+                "standbytimer": "05:00",
+                "delaytext": "עיכוב:",
+                "npm ": "00:23",
+                "values": [
+                    {
+                        "value": "1",
+                        "title": "ממתינים"
+                    },
+                    {
+                        "value": "2",
+                        "title": "טופלו"
+                    }
+                ],
+                "bottomvalues": [
+                    {
+                        "value": "02",
+                        "title": "כולל ביקור רופא"
+                    },
+                    {
+                        "value": "2",
+                        "title": "כולל כימו"
+                    }
+                ]
+            },
+            {
+                "unitId": 1,
+                "title": "שם מעיץ 2",
+                "subtitle": "זמן המתנה",
+                "standbytimer": "05:00",
+                "delaytext": "עיכוב:",
+                "delaytimer": "23:00",
+                "values": [
+                    {
+                        "value": "3",
+                        "title": "ממתינים"
+                    },
+                    {
+                        "value": "4",
+                        "title": "טופלו"
+                    },
+                ],
+                "bottomvalues": [
+                    {
+                        "value": "02",
+                        "title": "כולל ביקור רופא"
+                    },
+                    {
+                        "value": "2",
+                        "title": "כולל כימו"
+                    },
+                ]
+            },
+            {
+                "unitId": 1,
+                "title": "שם מעיץ 3",
+                "subtitle": "זמן המתנה",
+                "standbytimer": "05:00",
+                "delaytext": "עיכוב:",
+                "delaytimer": "23:00",
+                "values": [
+                    {
+                        "value": "3",
+                        "title": "ממתינים"
+                    },
+                    {
+                        "value": "1",
+                        "title": "טופלו"
+                    },
+                ],
+                "bottomvalues": [
+                    {
+                        "value": "02",
+                        "title": "כולל ביקור רופא"
+                    },
+                    {
+                        "value": "2",
+                        "title": "כולל כימו"
+                    },
+                ]
+            },
+            {
+                "unitId": 1,
+                "title": "שם מעיץ 4",
+                "subtitle": "זמן המתנה",
+                "standbytimer": "05:00",
+                "delaytext": "עיכוב:",
+                "delaytimer": "23:00",
+                "values": [
+                    {
+                        "value": "3",
+                        "title": "ממתינים"
+                    },
+                    {
+                        "value": "1",
+                        "title": "טופלו"
+                    },
+                ],
+                "bottomvalues": [
+                    {
+                        "value": "02",
+                        "title": "כולל ביקור רופא"
+                    },
+                    {
+                        "value": "2",
+                        "title": "כולל כימו"
+                    },
+                ]
+            }
+        ]
+    },
+    "simulation": {
+        "icon": "simulation",
+        "title": "סימולציה",
+        "stayedtitle": "נשארו",
+        "stayedcolor": "#fff",
+        "arrivedtitle": "הגיעו",
+        "arrivedcolor": "#fff",
+        "dateoptions": [
+            "start": "31.5.21",
+            "end": "1.6.21"
+        ],
+        "graph_ct": {
+            "title": "CT",
+            "data": [
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+            ]
+        },
+        "graph_mri": {
+            "title": "MRI",
+            "data": [
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+                {
+                    "Unit": null,
+                    "Value": 25
+                },
+            ]
+        },
+    },
+    "patientstodoctor": {
+        "icon": "patientstodoctor",
+        "title": "מאיצים",
+        "header": [
+            "היום",
+            "מחר",
+        ],
+        "patients": [
+            {
+                "unitid": 1,
+                "name": "דרור לימון",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "10",
+                        "kpi": 0,
+                        "direction": 0,
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0,
+                    }
+                ]
+            },
+            {
+                "unitid": 1,
+                "name": "דרור לימון",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "10",
+                        "kpi": 0,
+                        "direction": 0,
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0,
+                    }
+                ]
+            },
+            {
+                "unitid": 1,
+                "name": "דרור לימון",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "10",
+                        "kpi": 0,
+                        "direction": 0,
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0,
+                    }
+                ]
+            }
+        ],
+    },
+    "featureinvite": {
+        "icon": "featureinvite",
+        "title": "זימונים עתידיים",
+        "header": [
+            "1.6.21",
+            "2.6.21",
+            "3.6.21",
+            "4.6.21",
+            "5.6.21",
+        ],
+        "patients": [
+            {
+                "unitid": 1,
+                "name": "מטופל מבודד שלא מוזמן לתחילת/סוף יום",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "20",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "19",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "8",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "26",
+                        "kpi": 0,
+                        "direction": 0
+                    }
+                ]
+            },
+            {
+                "unitid": 2,
+                "name": "מטופלים כימוטרפיה + הקרנה",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "20",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "19",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "8",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "26",
+                        "kpi": 0,
+                        "direction": 0
+                    }
+                ]
+            },
+            {
+                "unitid": 3,
+                "name": "מטופלים ביקור רופא + הקרנה",
+                "patientParams": [
+                    {
+                        "paramId": 0,
+                        "cellText": "20",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "6",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "19",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "8",
+                        "kpi": 0,
+                        "direction": 0
+                    },
+                    {
+                        "paramId": 0,
+                        "cellText": "26",
+                        "kpi": 0,
+                        "direction": 0
+                    }
+                ]
+            },
+        ],
+    }
+}

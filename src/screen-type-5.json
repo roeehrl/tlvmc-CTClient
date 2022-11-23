@@ -1,0 +1,571 @@
+{
+  "Cards": [
+    {
+      "cardType": 2,
+      "value": 18,
+      "text": "חדרים פעילים",
+      "showTrend": false,
+      "color": "FAD058",
+      "iconName": null,
+      "percentage": 81
+    },
+    {
+      "cardType": 1,
+      "value": 41,
+      "text": "כמות ניתוחים",
+      "showTrend": false,
+      "color": null,
+      "iconName": "knife",
+      "percentage": 0
+    },
+    {
+      "cardType": 1,
+      "value": 93,
+      "text": "ניצולת חדרים",
+      "showTrend": false,
+      "color": null,
+      "iconName": "knife",
+      "percentage": 0
+    },
+    {
+      "cardType": 1,
+      "value": 14,
+      "text": "מטופלים בהתעוררות",
+      "showTrend": false,
+      "color": null,
+      "iconName": "bed",
+      "percentage": 0
+    },
+    {
+      "cardType": 1,
+      "value": 6,
+      "text": "מטופלים בקבלה",
+      "showTrend": false,
+      "color": null,
+      "iconName": "bed",
+      "percentage": 0
+    },
+    {
+      "cardType": 1,
+      "value": 64,
+      "text": "זמן המתנה בקבלה",
+      "showTrend": false,
+      "color": null,
+      "iconName": "bed",
+      "percentage": 0
+    }
+  ],
+  "Rooms": [
+    {
+      "ORoomType": 1,
+      "ORoomName": "01",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "נוירוכ",
+      "ORoomDelay": false,
+      "ORoomTime": "05:54",
+      "ORoomCutTime": "04:25",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "02",
+      "ORoomStatus": 6,
+      "ORoomColor": "10CCCB",
+      "ORoomUsage": "84%",
+      "OUnitName": null,
+      "ORoomDelay": false,
+      "ORoomTime": "00:47",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "03",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "97%",
+      "OUnitName": "כירילד",
+      "ORoomDelay": false,
+      "ORoomTime": "05:40",
+      "ORoomCutTime": "05:11",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "04",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "91%",
+      "OUnitName": "כירילד",
+      "ORoomDelay": false,
+      "ORoomTime": "00:48",
+      "ORoomCutTime": "00:12",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "3",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "05",
+      "ORoomStatus": 6,
+      "ORoomColor": "10CCCB",
+      "ORoomUsage": "99%",
+      "OUnitName": null,
+      "ORoomDelay": false,
+      "ORoomTime": "00:28",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "06",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "95%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "05:33",
+      "ORoomCutTime": "04:11",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "07",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "95%",
+      "OUnitName": "אורטיל",
+      "ORoomDelay": false,
+      "ORoomTime": "05:33",
+      "ORoomCutTime": "03:55",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "08",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "59%",
+      "OUnitName": "כלידם",
+      "ORoomDelay": false,
+      "ORoomTime": "03:28",
+      "ORoomCutTime": "02:07",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "11",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "98%",
+      "OUnitName": "כירא",
+      "ORoomDelay": false,
+      "ORoomTime": "00:28",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "13",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "87%",
+      "OUnitName": "נוירוכ",
+      "ORoomDelay": false,
+      "ORoomTime": "02:52",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "05",
+      "ORoomStatus": 6,
+      "ORoomColor": "10CCCB",
+      "ORoomUsage": "99%",
+      "OUnitName": null,
+      "ORoomDelay": false,
+      "ORoomTime": "00:28",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "16",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "87%",
+      "OUnitName": "אורולי",
+      "ORoomDelay": false,
+      "ORoomTime": "00:53",
+      "ORoomCutTime": "00:29",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "3",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "16",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "87%",
+      "OUnitName": "אורולי",
+      "ORoomDelay": false,
+      "ORoomTime": "00:53",
+      "ORoomCutTime": "00:29",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "3",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "17",
+      "ORoomStatus": 6,
+      "ORoomColor": "10CCCB",
+      "ORoomUsage": "87%",
+      "OUnitName": null,
+      "ORoomDelay": false,
+      "ORoomTime": "00:24",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "01",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "נוירוכ",
+      "ORoomDelay": false,
+      "ORoomTime": "05:54",
+      "ORoomCutTime": "04:25",
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "1",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    },
+    {
+      "ORoomType": 1,
+      "ORoomName": "09",
+      "ORoomStatus": 4,
+      "ORoomColor": "EC3E60",
+      "ORoomUsage": "100%",
+      "OUnitName": "כירב",
+      "ORoomDelay": false,
+      "ORoomTime": "00:38",
+      "ORoomCutTime": null,
+      "ORoomTTF": 0,
+      "ORoomData": [
+        {
+          "Value": "2",
+          "Text": "ניתוחים"
+        },
+        {
+          "Value": "לא מוכן",
+          "Text": "מנותח הבא"
+        }
+      ]
+    }
+  ],
+  "Tabs": [
+    {
+      "TabId": 1,
+      "TabName": "חנ. כללי",
+      "IsActive": true
+    },
+    {
+      "TabId": 2,
+      "TabName": "ניתוחי יום",
+      "IsActive": false
+    },
+    {
+      "TabId": 3,
+      "TabName": "ח.נ. ליס",
+      "IsActive": false
+    },
+    {
+      "TabId": 5,
+      "TabName": "ח.נ עין",
+      "IsActive": false
+    },
+    {
+      "TabId": 7,
+      "TabName": "חנ.דימות",
+      "IsActive": false
+    }
+  ]
+}

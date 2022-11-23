@@ -1,0 +1,1195 @@
+// TABLE 10
+{
+    "table": {
+        "mainheader": {
+          "icon": "light",
+          "title": "מתעכבים"
+        },
+        "header": [
+          "תעודת זהות",
+          "גיל",
+          "האם מאושפז",
+          "מאיץ",
+          "זמן זימון",
+          "זמן הגעה",
+          "זמן כניסה למאיץ",
+          "זמן המתנה",
+          "משך עיכוב",
+          "האם גם כימו",
+          "האם גם ביקור רופא",
+          "שם רופא",
+          "מבודד לא בתחילת/סוף יום מזומן ליומן",
+          "סוג בידוד"
+          
+        ],
+        "patients": [
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          },
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "לא",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "יעקב כהן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          }
+        ]
+    }
+    
+},
+
+// TABLE 16
+{
+    "table":{
+        "mainheader": {
+          "icon": "light",
+          "title": "סימולציה"
+        },
+        "header": [
+          "שם מטופל",
+          "ת''ז",
+          "גיל",
+          "האם מאושפז",
+          "שם יומן",
+          "שעת זימון",
+        ],
+        "patients": [
+          {
+            "patId": 0,
+            "patName": "יעקב כהן",
+            "nextScreenType": 0,
+            "sex": 0,
+            "patientParams": [
+              {
+                "paramId": 0,
+                "cellText": "345729064",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "65",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "כן",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              },
+              {
+                "paramId": 0,
+                "cellText": "13:20",
+                "kpi": 0,
+                "direction": 0,
+                "Urgent": null,
+                "urgentkpi": 0
+              }
+            ],
+            "urgentParams": null
+          }
+        ]
+    }
+}

@@ -1,0 +1,594 @@
+{
+  "uuid": "43db398c-07de-4e7a-82c1-f65b7c5f53ad",
+  "lastMigration": 19,
+  "name": "ControlTowerApi",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 4505,
+  "routes": [
+    {
+      "uuid": "aba48fec-31a5-454d-ab4a-ae5a4bdfcd0e",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "corona/getunitdata/{id}",
+      "responses": [
+        {
+          "uuid": "81de68e6-39dd-4f0a-b4e6-d14b13df97df",
+          "body": "{\"unitId\":70,\"cards\":[{\"percentage\":38,\"cardType\":2,\"value\":33,\"text\":\"מאושפזים\",\"showTrend\":false,\"color\":\"EC3E60\"},{\"iconName\":\"\",\"cardType\":1,\"value\":12,\"text\":\"מונשמים\",\"showTrend\":false,\"color\":null},{\"percentage\":21,\"cardType\":2,\"value\":7,\"text\":\"במצב קשה\",\"showTrend\":false,\"color\":\"8577D1\"},{\"iconName\":\"solitary\",\"cardType\":1,\"value\":0,\"text\":\"התקבלו היום\",\"showTrend\":false,\"color\":null},{\"iconName\":\"solitary\",\"cardType\":1,\"value\":2,\"text\":\"שוחררו היום\",\"showTrend\":false,\"color\":null},{\"iconName\":\"\",\"cardType\":1,\"value\":38,\"text\":\"חשודים לקורונה\",\"showTrend\":false,\"color\":null}],\"table\":{\"header\":[\"תפוסה\",\"מאושפזים\",\"מונשמים\",\"במצב קשה\",\"במצב בינוני\",\"במצב קל\",\"ממוצע ימי אשפוז\",\"מוכנים לשחרור\"],\"units\":[{\"unitId\":64,\"unitName\":\"בידוד מיוחד\",\"unitSubText\":\"6 מאושפזים\",\"color\":\"10CCCB\",\"nextScreenType\":2,\"unitParams\":[{\"paramId\":1,\"cellText\":\"17%\",\"kpi\":0,\"direction\":0},{\"paramId\":3,\"cellText\":\"6\",\"kpi\":0,\"direction\":0},{\"paramId\":24,\"cellText\":\"0\",\"kpi\":0,\"direction\":0},{\"paramId\":28,\"cellText\":\"0\",\"kpi\":0,\"direction\":0},{\"paramId\":29,\"cellText\":\"1\",\"kpi\":0,\"direction\":0},{\"paramId\":30,\"cellText\":\"5\",\"kpi\":0,\"direction\":0},{\"paramId\":14,\"cellText\":\"2\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0\",\"kpi\":0,\"direction\":0}]},{\"unitId\":66,\"unitName\":\"טפול נמ. כללי ב\",\"unitSubText\":\"9 מאושפזים\",\"color\":\"8577D1\",\"nextScreenType\":2,\"unitParams\":[{\"paramId\":1,\"cellText\":\"50%\",\"kpi\":0,\"direction\":0},{\"paramId\":3,\"cellText\":\"9\",\"kpi\":0,\"direction\":0},{\"paramId\":24,\"cellText\":\"8\",\"kpi\":0,\"direction\":-1},{\"paramId\":28,\"cellText\":\"3\",\"kpi\":0,\"direction\":0},{\"paramId\":29,\"cellText\":\"2\",\"kpi\":0,\"direction\":0},{\"paramId\":30,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":14,\"cellText\":\"10\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0\",\"kpi\":0,\"direction\":0}]},{\"unitId\":67,\"unitName\":\"טיפול נמרץ פנא\",\"unitSubText\":\"18 מאושפזים\",\"color\":\"FF9ECA\",\"nextScreenType\":2,\"unitParams\":[{\"paramId\":1,\"cellText\":\"53%\",\"kpi\":0,\"direction\":-1},{\"paramId\":3,\"cellText\":\"18\",\"kpi\":0,\"direction\":-1},{\"paramId\":24,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":28,\"cellText\":\"4\",\"kpi\":0,\"direction\":-1},{\"paramId\":29,\"cellText\":\"4\",\"kpi\":0,\"direction\":1},{\"paramId\":30,\"cellText\":\"10\",\"kpi\":0,\"direction\":-1},{\"paramId\":14,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0\",\"kpi\":0,\"direction\":0}]}]},\"screenType\":1,\"updateDate\":\"\\/Date(1586766124815)\\/\",\"title\":\"חמל קורונה\",\"breadCrumbs\":[]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "6bb21922-53a6-405d-a36c-9ea9ae674411",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "corona/getpatients/66",
+      "responses": [
+        {
+          "uuid": "6bf9c708-4d6e-40ae-8210-1894a96df471",
+          "body": "{\"cards\":[{\"percentage\":50,\"cardType\":2,\"value\":9,\"text\":\"מאושפזים\",\"showTrend\":false,\"color\":\"EC3E60\"},{\"iconName\":\"\",\"cardType\":1,\"value\":8,\"text\":\"מונשמים\",\"showTrend\":false,\"color\":null},{\"percentage\":33,\"cardType\":2,\"value\":3,\"text\":\"במצב קשה\",\"showTrend\":false,\"color\":\"8577D1\"},{\"iconName\":\"solitary\",\"cardType\":1,\"value\":0,\"text\":\"התקבלו היום\",\"showTrend\":false,\"color\":null},{\"iconName\":\"solitary\",\"cardType\":1,\"value\":0,\"text\":\"שוחררו היום\",\"showTrend\":false,\"color\":null}],\"table\":{\"header\":[\"תעודת זהות\",\"גיל\",\"מדד מיוז\",\"ימי אשפוז במחלקה\",\"ימי אשפוז בבית חולים\",\"מטופל מונשם\",\"מחובר למוניטור\",\"מטופל בבידוד\",\"האם פרסונל\",\"צפוי להשתחרר\"],\"patients\":[{\"patId\":35455,\"patName\":\"שם פרטי שם משפחה622\",\"nextScreenType\":3,\"sex\":2,\"patientParams\":[{\"paramId\":1,\"cellText\":\"168901380\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"71\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קשה\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"14\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"24\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":35557,\"patName\":\"שם פרטי שם משפחה218\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"945088777\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"64\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"15\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"23\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":36072,\"patName\":\"שם פרטי שם משפחה712\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"266995353\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"54\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"15\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"20\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":36294,\"patName\":\"שם פרטי שם משפחה112\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"720681153\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"75\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קשה\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"14\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"19\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":36675,\"patName\":\"שם פרטי שם משפחה657\",\"nextScreenType\":3,\"sex\":2,\"patientParams\":[{\"paramId\":1,\"cellText\":\"788936589\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"70\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קשה\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"14\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"17\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":37982,\"patName\":\"שם פרטי שם משפחה763\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"260334034\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"22\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"10\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"10\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":38294,\"patName\":\"שם פרטי שם משפחה248\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"372385460\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"41\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"6\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"8\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":38280,\"patName\":\"שם פרטי שם משפחה915\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"626121756\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"49\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"בינוני\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"5\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"8\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":2,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כן\",\"kpi\":1,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]},{\"patId\":39482,\"patName\":\"שם פרטי שם משפחה676\",\"nextScreenType\":3,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"565160245\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"49\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"קל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"1\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"1\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"לא\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"N/A\",\"kpi\":0,\"direction\":0}]}]},\"screenType\":2,\"updateDate\":\"\\/Date(1586762404008)\\/\",\"title\":\"טפול נמ. כללי ב\",\"breadCrumbs\":[{\"screenType\":2,\"id\":66,\"Text\":\"טפול נמ. כללי ב\"}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "fd2bcd3f-2df4-4a41-aa51-a56e611919c8",
+      "documentation": "range: 'H' = hourly, 'D' = daily,  'W' = weekly, 'M' = monthly, 'Y' = yearly",
+      "method": "get",
+      "endpoint": "corona/GetTrend/{id}/{paramId}/{range}?date",
+      "responses": [
+        {
+          "uuid": "c9e5138d-3e71-49db-87b4-35b8a7368dc2",
+          "body": "{\"title\":\"asdasd\",\"trends\":[{\"title\":\"מאושפזים\",\"id\":\"3\",\"color\":\"EC3E60\"},{\"title\":\"תקן\",\"id\":\"2\",\"color\":\"8577D1\"},{\"title\":\"בסיכון גבוהה\",\"id\":\"8\",\"color\":\"FF9E9E\"}],\"data\":[{\"name\":\"13/04/20 02:25\",\"3\":44,\"2\":100,\"8\":18},{\"name\":\"13/04/20 04:25\",\"3\":45,\"2\":100,\"8\":29},{\"name\":\"13/04/20 06:25\",\"3\":49,\"2\":100,\"8\":35},{\"name\":\"13/04/20 08:25\",\"3\":50,\"2\":100,\"8\":27}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "3812f0ac-0dca-41c0-b277-b1805c7a5f9f",
+      "documentation": "id= start from msgid (for paging) ,   take= how much to take - defult = 20 no need to send param , all - get all msg (include expired) - defult 0",
+      "method": "get",
+      "endpoint": "messages/getmessages/0?all=1&take=5",
+      "responses": [
+        {
+          "uuid": "370edca3-711d-4998-9bab-4a2418456637",
+          "body": "{\"newMessages\":3,\"msgList\":[{\"MsgId\":2,\"MsgTitle\":\"חריגה בתפוסה\",\"MsgSubTitle\":\"מחלקת טנפנמא מעל 70%\",\"MsgText\":\"מחלקת טיפול נמרץ פנימית א  עם תפוסה של 70 מטופלים בתקן 95\",\"MsgStartDate\":\"\\/Date(1586773080000)\\/\",\"IsNew\":true,\"kpi\":1},{\"MsgId\":3,\"MsgTitle\":\"ארוע רב נפגעים\",\"MsgSubTitle\":\"נוהל אר\\\"ן הופעל נוהל ארן במיון\",\"MsgText\":null,\"MsgStartDate\":\"\\/Date(1586775600000)\\/\",\"IsNew\":true,\"kpi\":2},{\"MsgId\":4,\"MsgTitle\":\"נוהל סטרוק\",\"MsgSubTitle\":\"נוהל סטרוק במיון\",\"MsgText\":\"התקבל על ידי מד\\\"א  נוהל סטרוק בדרך למיון. צוותים הוזנקו\",\"MsgStartDate\":\"\\/Date(1586778600000)\\/\",\"IsNew\":true,\"kpi\":1}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "ca6b2eff-e36b-4d4a-8655-e80db7b10146",
+      "documentation": "id = patId from list of patients",
+      "method": "get",
+      "endpoint": "ishpuz/GetPateintData/id",
+      "responses": [
+        {
+          "uuid": "896d8fc2-4ac7-4676-a92f-651d65d0a033",
+          "body": "{\"breadCrumbs\":[{\"screenType\":1,\"id\":5,\"Text\":\"מחלקות פנימיות\"},{\"screenType\":2,\"id\":56,\"Text\":\"פנימית ט\"}],\"patId\":33486,\"patName\":\"שם פרטי משפחה\",\"sex\":2,\"idNumber\":\"33619764\",\"age\":57,\"caseNumber\":\"1180626\",\"birthPlace\":\"ישראל\",\"address\":\"תל אביב - יפו\",\"daysInUnit\":28,\"unitDate\":\"23/03/2020\",\"daysInHospital\":40,\"hospitalDate\":\"11/03/2020\",\"releaseDate\":\"\",\"unitName\":\"פנימית ט\",\"satellite\":\"\",\"isHighRisk\":false,\"isReturnPatient\":false,\"indicators\":[{\"kpi\":1,\"iconName\":\"alert\",\"Text\":\"בסיכון גבוה\",\"popupText\":null},{\"kpi\":2,\"iconName\":\"alert\",\"Text\":\"טריאז 2\",\"popupText\":null},{\"kpi\":2,\"iconName\":\"lungs\",\"Text\":\"מונשם\",\"popupText\":null},{\"kpi\":0,\"iconName\":\"door\",\"Text\":\"בידוד\",\"popupText\":\" בידוד מגע,\"}],\"steps\":[{\"stepName\":\"טיפול נמרץ כללי - מחלקה\",\"stepYear\":\"2020\",\"stepMonth\":\"מרץ\",\"stepDay\":\"11\",\"totalDays\":11},{\"stepName\":\"ט.נ. לב - מחלקה\",\"stepYear\":\"2020\",\"stepMonth\":\"מרץ\",\"stepDay\":\"22\",\"totalDays\":1},{\"stepName\":\"פנימית ט -מחלקה\",\"stepYear\":\"2020\",\"stepMonth\":\"מרץ\",\"stepDay\":\"23\",\"totalDays\":30}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "5c55cff6-f737-4434-b5ac-d1dd7f3ae230",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "malrad/GetUnitData",
+      "responses": [
+        {
+          "uuid": "c74792d5-7c60-4e31-884a-3eff442a9190",
+          "body": "{\"Reception\":[{\"value\":100,\"text\":\"מטופלים\",\"subData\":[{\"value\":60,\"text\":\"שוכבים\",\"color\":\"34A9FF\"},{\"value\":7,\"text\":\"קבלה\",\"color\":\"EC9056\"},{\"value\":33,\"text\":\"מהלכים\",\"color\":\"FAD058\"}],\"cardId\":1,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":\"שוהים במיון\",\"cardIcon\":\"attend\",\"nextScreenType\":4},{\"value\":100,\"text\":\"מטופלים\",\"color\":\"10CCCB\",\"percentage\":0.3,\"time\":\"00:16\",\"timeText\":\"זמן המתנה\",\"cardId\":2,\"cardType\":3,\"cardPosition\":2,\"cardTitle\":\"עמדת טריאז\\u0027\",\"cardIcon\":\"triage\",\"nextScreenType\":4},{\"value\":11,\"text\":\"מטופלים\",\"color\":\"34A9FF\",\"percentage\":2,\"time\":\"11%\",\"timeText\":\"אחוז חוזרים\",\"cardId\":3,\"cardType\":2,\"cardPosition\":1,\"cardTitle\":\"מטופלים חוזרים\",\"cardIcon\":\"reception\",\"nextScreenType\":4},{\"value\":2,\"color\":\"8577D1\",\"percentage\":1,\"cardId\":4,\"cardType\":4,\"cardPosition\":3,\"cardTitle\":\"אמבולנסים בדרך\",\"cardIcon\":\"ambulance\",\"nextScreenType\":5}],\"Capacity\":[{\"time\":\"02:01\",\"timeText\":\"זמן ממוצע\",\"underTime\":\"34:25\",\"value\":60,\"text\":\"מטופלים\",\"subData\":[{\"value\":1,\"text\":\"חדר הלם\",\"color\":\"EC3E60\"},{\"value\":19,\"text\":\"שוכבים א\",\"color\":\"10CCCB\"},{\"value\":19,\"text\":\"שוכבים ב\",\"color\":\"8577D1\"},{\"value\":9,\"text\":\"שוכבים בידוד\",\"color\":\"FF9ECA\"},{\"value\":12,\"text\":\"שוכבים ג\",\"color\":\"34A9FF\"}],\"cardId\":5,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":\"מיון שוכבים\",\"cardIcon\":\"repose\",\"nextScreenType\":4},{\"value\":33,\"text\":\"מטופלים\",\"color\":\"D54DE2\",\"percentage\":0.83,\"time\":\"01:48\",\"timeText\":\"זמן המתנה\",\"cardId\":6,\"cardType\":2,\"cardPosition\":1,\"cardTitle\":\"מיון מהלכים\",\"cardIcon\":\"walking\",\"nextScreenType\":4},{\"value\":0,\"text\":\"מטופלים\",\"color\":\"EC3E60\",\"percentage\":0.5,\"time\":\"00:01\",\"timeText\":\"זמן המתנה\",\"cardId\":7,\"cardType\":3,\"cardPosition\":2,\"cardTitle\":\"מיון השהיה\",\"cardIcon\":\"delay\",\"nextScreenType\":4}],\"Operations\":[{\"data\":[{\"time\":\"00:23\",\"timeText\":\"זמן לבדיקת אחות\",\"color\":\"34A9FF\",\"percentage\":0.6},{\"time\":\"00:41\",\"timeText\":\"זמן לבדיקת רופא\",\"color\":\"10CCCB\",\"percentage\":0.19},{\"time\":\"00:58\",\"timeText\":\"זמן לייעוצים\",\"color\":\"EC3E60\",\"percentage\":0.7}],\"cardId\":8,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":null,\"cardIcon\":null,\"nextScreenType\":4},{\"data\":[{\"icon\":\"CT\",\"subData\":[{\"value\":12,\"text\":\"ממתינים\"}],\"time\":\"00:42\",\"timeText\":\"CT\",\"color\":\"34A9FF\",\"percentage\":0.6},{\"icon\":\"XRAY\",\"subData\":[{\"value\":0,\"text\":\"ממתינים\"}],\"time\":\"00:24\",\"timeText\":\"XRAY\",\"color\":\"34A9FF\",\"percentage\":0.8},{\"icon\":\"US\",\"subData\":[{\"value\":3,\"text\":\"ממתינים\"}],\"time\":\"00:05\",\"timeText\":\"US\",\"color\":\"D54DE2\",\"percentage\":1}],\"cardId\":9,\"cardType\":2,\"cardPosition\":1,\"cardTitle\":null,\"cardIcon\":null,\"nextScreenType\":4},{\"value\":35,\"text\":\"ממתינים\",\"color\":\"D1A177\",\"percentage\":0.65,\"time\":\"02:17\",\"timeText\":\"זמן המתנה\",\"cardId\":10,\"cardType\":3,\"cardPosition\":2,\"cardTitle\":\"בדיקות דם\",\"cardIcon\":\"blood\",\"nextScreenType\":4}],\"Discharge\":[{\"value\":13,\"text\":\"מטופלים\",\"color\":\"10CCCB\",\"percentage\":0.7,\"time\":\"00:13\",\"timeText\":\"זמן המתנה\",\"cardId\":11,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":\"ממתינים לשחרור\",\"cardIcon\":\"release\",\"nextScreenType\":4},{\"value\":6,\"text\":\"מטופלים\",\"color\":\"EC3E60\",\"percentage\":0.6,\"time\":\"00:00\",\"timeText\":\"זמן המתנה\",\"cardId\":12,\"cardType\":2,\"cardPosition\":1,\"cardTitle\":\"ממתינים לאשפוז\",\"cardIcon\":\"hospitalize\",\"nextScreenType\":4}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "a5277f0d-00e0-4279-af3c-9e021711a245",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "malrad/GetAmbulances",
+      "responses": [
+        {
+          "uuid": "674dfe02-9305-46b2-bec6-d7de7ea2823a",
+          "body": "{\"title\":\"אמבולנסים בדרך\",\"screenType\":5,\"legend\":[{\"color\":\"FAD058\",\"text\":\"טיפול נמרץ\"},{\"color\":\"ffffff\",\"text\":\"רגיל\"}],\"data\":[{\"ambulanceNumber\":\"1328\",\"location\":\"תל אביב יפו\",\"text\":\"כאבי גב\",\"subText\":\"מחלה מבוגר\",\"status\":1,\"statusName\":\"קל\",\"statusColor\":\"10CCCB\",\"seconds\":278},{\"ambulanceNumber\":\"845\",\"location\":\"אסותא ציבורי אשדוד\",\"text\":\"ההעברה מבי\\\"ח לבי\\\"ח\",\"subText\":\"העברה\",\"status\":1,\"statusName\":\"קל\",\"statusColor\":\"10CCCB\",\"seconds\":578}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "946e44b5-dda3-4635-bba5-3ecb5362245d",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "malrad/GetUnitData/{cardId}",
+      "responses": [
+        {
+          "uuid": "9e1ff8c2-07be-4a18-bc05-749ad7f0f6c5",
+          "body": "{\"title\":\"שוהים במיון\",\"screenType\":4,\"table\":{\"header\":[\"ת.ז\",\"גיל\",\"טריאז\\u0027\",\"מספר מקרה\",\"מיקום\",\"זמן שהיה\",\"תלונת המטופל\",\"החלטה\"],\"patients\":[{\"patId\":12040428,\"patName\":\"שם פרטי שם משפחה374\",\"nextScreenType\":1,\"sex\":2,\"patientParams\":[{\"paramId\":1,\"cellText\":\"480369036\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"24\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":null,\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012040428\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":null,\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"05:40\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":null,\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166104,\"patName\":\"שם פרטי שם משפחה897\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"734830242\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"82\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166104\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים א מיטה 05\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"10:49\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"כאבים ברגלים\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שחרור\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166121,\"patName\":\"שם פרטי שם משפחה513\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"671960447\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"45\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166121\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים בידוד מיטה 3\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"08:37\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"כאב גב נחשף לחולה מאומת\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166135,\"patName\":\"שם פרטי שם משפחה478\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"401528774\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"56\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166135\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים א מיטה 07\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"07:13\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"כאב בטן\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166137,\"patName\":\"שם פרטי שם משפחה943\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"111766967\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"78\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"3\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166137\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים ב מיטה 3\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"07:04\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"חשד לאירוע מוחי\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"אשפוז\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166166,\"patName\":\"שם פרטי שם משפחה965\",\"nextScreenType\":1,\"sex\":2,\"patientParams\":[{\"paramId\":1,\"cellText\":\"639430651\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"60\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166166\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים ב מיטה 24 המתנה\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"05:31\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"חולשה לאחר ביופסיה\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שחרור\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166196,\"patName\":\"שם פרטי שם משפחה918\",\"nextScreenType\":1,\"sex\":2,\"patientParams\":[{\"paramId\":1,\"cellText\":\"795907617\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"58\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166196\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים א מיטה 02\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"04:37\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"כאבי בטן\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"אשפוז\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166200,\"patName\":\"שם פרטי שם משפחה345\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"152162572\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"88\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"4\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166200\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים ב מיטה 17\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"04:36\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"ירידה בתפקוד\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"אשפוז\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166201,\"patName\":\"שם פרטי שם משפחה17\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"234468519\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"70\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"3\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166201\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"שוכבים ג מיטה 16\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"04:34\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"כ בחזה\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"אשפוז\",\"kpi\":0,\"direction\":0}]},{\"patId\":12166208,\"patName\":\"שם פרטי שם משפחה217\",\"nextScreenType\":1,\"sex\":1,\"patientParams\":[{\"paramId\":1,\"cellText\":\"540366659\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"57\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"3\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"0012166208\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":null,\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"04:27\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"עיניים\",\"kpi\":0,\"direction\":0},{\"paramId\":0,\"cellText\":\"\",\"kpi\":0,\"direction\":0}]}]},\"trend\":{\"title\":\"שוהים במיון\",\"trends\":[{\"title\":\"שוהים במיון\",\"id\":\"7\",\"color\":\"EC3E60\"}],\"data\":[{\"name\":\"21/05/2020\",\"7\":\"89\"},{\"name\":\"22/05/2020\",\"7\":\"73\"},{\"name\":\"23/05/2020\",\"7\":\"35\"},{\"name\":\"24/05/2020\",\"7\":\"84\"},{\"name\":\"25/05/2020\",\"7\":\"84\"},{\"name\":\"26/05/2020\",\"7\":\"93\"},{\"name\":\"27/05/2020\",\"7\":\"69\"},{\"name\":\"28/05/2020\",\"7\":\"54\"},{\"name\":\"29/05/2020\",\"7\":\"54\"},{\"name\":\"30/05/2020\",\"7\":\"35\"},{\"name\":\"31/05/2020\",\"7\":\"88\"},{\"name\":\"01/06/2020\",\"7\":\"73\"},{\"name\":\"02/06/2020\",\"7\":\"115\"},{\"name\":\"03/06/2020\",\"7\":\"67\"},{\"name\":\"04/06/2020\",\"7\":\"100\"}],\"legend\":null},\"extraData\":[{\"value\":14,\"color\":null,\"percentage\":0,\"cardId\":0,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":\"קבלות בשעה האחרונה\",\"cardIcon\":null,\"nextScreenType\":0},{\"value\":30,\"color\":null,\"percentage\":0.3,\"cardId\":0,\"cardType\":2,\"cardPosition\":0,\"cardTitle\":\"אחוז מענה\",\"cardIcon\":null,\"nextScreenType\":0},{\"value\":3,\"color\":\"EC3E60\",\"percentage\":0,\"cardId\":0,\"cardType\":1,\"cardPosition\":0,\"cardTitle\":\"העברות מבתי חולים\",\"cardIcon\":null,\"nextScreenType\":0}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "431759c8-4e67-4a6d-a22d-8e98ee93b0ae",
+      "documentation": "מבנה נתונים לציון מלרד",
+      "method": "get",
+      "endpoint": "malrad/GetUnitData/1",
+      "responses": [
+        {
+          "uuid": "7c9957a0-223a-4b08-8869-67586dc117e1",
+          "body": "{\"breadCrumbs\":[{\"screenType\":6,\"id\":1,\"Text\":\"ציון מלרד\"}],\"title\":\"ציון מלרד 160\",\"screenType\":6,\"min\":0,\"max\":100,\"tickAmount\":10,\"data\":{\"labels\":[{\"text\":\"כמות ממתינים בטריאז\\u0027 2\",\"icon\":\"indicator_triage\",\"paramId\":4,\"unitId\":1218,\"color\":\"10CCCB\"},{\"text\":\"כמות מטופלים 79\",\"icon\":\"indicator_hospitalization\",\"paramId\":7,\"unitId\":1218,\"color\":\"34A9FF\"},{\"text\":\"מטופלים בחדר הלם 0\",\"icon\":\"indicator_bed\",\"paramId\":12,\"unitId\":1218,\"color\":\"34A9FF\"},{\"text\":\"ממתינים לאשפוז 13\",\"icon\":\"indicator_hospitalize\",\"paramId\":24,\"unitId\":1218,\"color\":\"EC3E60\"},{\"text\":\"מטופלים הממתינים ליעוצים 5\",\"icon\":\"indicator_attend\",\"paramId\":58,\"unitId\":1218,\"color\":\"FAD058\"},{\"text\":\"ממתינים להחלטת רופא 13\",\"icon\":\"indicator_general\",\"paramId\":59,\"unitId\":1218,\"color\":\"dfd\"},{\"text\":\"אמבולנסים ממתינים 0\",\"icon\":\"indicator_ambulance\",\"paramId\":64,\"unitId\":1218,\"color\":\"10CCCB\"}],\"datasets\":[{\"name\":\"ציון\",\"color\":\"8577D1\",\"data\":[10,20,10,50,30,30,10]},{\"name\":\"ממוצע\",\"color\":\"FF9ECA\",\"data\":[]},{\"name\":\"ערך גבוהה\",\"color\":\"D54DE2\",\"data\":[]}]}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "c48713a6-10ab-4563-a966-23de113803c5",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Malrad/GetTrend/{cardId}/H",
+      "responses": [
+        {
+          "uuid": "e5219c32-0ca7-4d54-8d2a-8051e8fa3061",
+          "body": "{\"title\":\"שוהים במיון\",\"trends\":[{\"title\":\"שוהים במיון\",\"id\":\"7\",\"color\":\"EC3E60\"}],\"data\":[{\"name\":\"04/06/2020 11:00\",\"7\":\"61\"},{\"name\":\"04/06/2020 11:00\",\"7\":\"64\"},{\"name\":\"04/06/2020 11:00\",\"7\":\"74\"},{\"name\":\"04/06/2020 11:00\",\"7\":\"78\"},{\"name\":\"04/06/2020 11:00\",\"7\":\"81\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"78\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"85\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"83\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"88\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"87\"},{\"name\":\"04/06/2020 12:00\",\"7\":\"91\"},{\"name\":\"04/06/2020 13:00\",\"7\":\"92\"},{\"name\":\"04/06/2020 13:00\",\"7\":\"92\"},{\"name\":\"04/06/2020 13:00\",\"7\":\"99\"},{\"name\":\"04/06/2020 13:00\",\"7\":\"100\"}],\"legend\":null}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "2f7f4a0c-bb09-4177-bf82-8d60a6885b03",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "OperRoom/GetUnitData/{id}",
+      "responses": [
+        {
+          "uuid": "8254223c-7bfb-44f7-ba80-45ba9a43695e",
+          "body": "{\"Cards\":[{\"cardType\":2,\"value\":26,\"text\":\"חדרים פעילים\",\"showTrend\":false,\"color\":\"FAD058\",\"iconName\":null,\"percentage\":81},{\"cardType\":1,\"value\":26,\"text\":\"כמות ניתוחים\",\"showTrend\":false,\"color\":null,\"iconName\":\"knife\",\"percentage\":0},{\"cardType\":1,\"value\":79,\"text\":\"ניצולת חדרים\",\"showTrend\":false,\"color\":null,\"iconName\":\"knife\",\"percentage\":0},{\"cardType\":1,\"value\":0,\"text\":\"מטופלים בהתעוררות\",\"showTrend\":false,\"color\":null,\"iconName\":\"bed\",\"percentage\":0},{\"cardType\":1,\"value\":4,\"text\":\"מטופלים בקבלה\",\"showTrend\":false,\"color\":null,\"iconName\":\"bed\",\"percentage\":0},{\"cardType\":1,\"value\":424,\"text\":\"זמן המתנה בקבלה\",\"showTrend\":false,\"color\":null,\"iconName\":\"bed\",\"percentage\":0}],\"Rooms\":[{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208980280000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"02\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208978420000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"04\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"89%\",\"OUnitName\":\"אאגי\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208994020000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208976620000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208986040000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208979320000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"07\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208976440000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208975720000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"04\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"89%\",\"OUnitName\":\"אאגי\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208994020000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208979560000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208985320000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"12\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"אורול\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993360000)\\/\",\"ORoomCutTime\":\"\\/Date(-2208995520000)\\/\",\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208980580000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"12\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"אורול\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993360000)\\/\",\"ORoomCutTime\":\"\\/Date(-2208995520000)\\/\",\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208986940000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208984240000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"15\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"83%\",\"OUnitName\":\"אורול\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208994140000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208985980000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208988980000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"15\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"83%\",\"OUnitName\":\"אורול\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208994140000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208987600000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"02\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208977040000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208981960000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"12\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"אורול\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993360000)\\/\",\"ORoomCutTime\":\"\\/Date(-2208995520000)\\/\",\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208984420000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"04\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"89%\",\"OUnitName\":\"אאגי\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208994020000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208986580000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208979200000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208984540000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"02\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"02\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"02\",\"ORoomStatus\":6,\"ORoomColor\":\"10CCCB\",\"ORoomUsage\":\"0%\",\"OUnitName\":null,\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993540000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"0\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":null},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208989460000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208985200000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208989760000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208980760000)\\/\"},{\"ORoomType\":1,\"ORoomName\":\"01\",\"ORoomStatus\":4,\"ORoomColor\":\"EC3E60\",\"ORoomUsage\":\"100%\",\"OUnitName\":\"כירפלס\",\"ORoomDelay\":false,\"ORoomTime\":\"\\/Date(-2208993420000)\\/\",\"ORoomCutTime\":null,\"ORoomTTF\":0,\"ORoomData\":[{\"Value\":\"1\",\"Text\":\"ניתוחים\"},{\"Value\":\"לא מוכן\",\"Text\":\"מנותח הבא\"}],\"ORoomFinishTime\":\"\\/Date(-2208983700000)\\/\"}],\"Tabs\":[{\"TabId\":1,\"TabName\":\"חנ. כללי\",\"IsActive\":true},{\"TabId\":2,\"TabName\":\"ניתוחי יום\",\"IsActive\":false},{\"TabId\":3,\"TabName\":\"ח.נ. ליס\",\"IsActive\":false},{\"TabId\":7,\"TabName\":\"חנ.דימות\",\"IsActive\":false}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "b9336303-efee-43fb-8aed-75fdc503c29e",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "OperRoom/GetPatients/id",
+      "responses": [
+        {
+          "uuid": "c01f209f-16f3-493d-9560-8cb735d2e380",
+          "body": "{\"cards\":[{\"cardType\":2,\"value\":379,\"text\":\"מאושפזים\",\"showTrend\":false,\"color\":\"EC3E60\",\"iconName\":null,\"percentage\":98},{\"cardType\":1,\"value\":2,\"text\":\"מטופלי קורונה\",\"showTrend\":false,\"color\":null,\"iconName\":\"corona\",\"percentage\":0},{\"cardType\":1,\"value\":10,\"text\":\"מונשמים\",\"showTrend\":false,\"color\":null,\"iconName\":\"lung\",\"percentage\":0},{\"cardType\":2,\"value\":0,\"text\":\"במצב קשה\",\"showTrend\":false,\"color\":\"8577D1\",\"iconName\":null,\"percentage\":0},{\"cardType\":1,\"value\":40,\"text\":\"התקבלו היום\",\"showTrend\":false,\"color\":null,\"iconName\":\"reception\",\"percentage\":0},{\"cardType\":1,\"value\":26,\"text\":\"שוחררו היום\",\"showTrend\":false,\"color\":null,\"iconName\":\"releases\",\"percentage\":0}],\"table\":{\"header\":[\"תעודת זהות\",\"מחלקה מנתחת\",\"מתחם\",\"חדר ניתוח\",\"שעת כניסה\",\"זמן ביחידה\"],\"patients\":[{\"patId\":0,\"patName\":\"שם פרטי שם משפחה882\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"709618670\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אף אוזן גרון\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"חנ. כללי\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז01-118\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"05/08/2020 11:36\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"1558\",\"kpi\":2,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה167\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"337613266\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אורטופדית כף רגל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"ניתוחי יום\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז02-101\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:59\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"35\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה675\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"180898472\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אורטופדית כף רגל\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"ניתוחי יום\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז02-107\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:22\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"73\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה31\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"612567167\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אף אוזן גרון\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"ניתוחי יום\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז02-106\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 11:49\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"106\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה690\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"888037005\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כירורגיה כללית א\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"חנ. כללי\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז01-107\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:31\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"64\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה185\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"344564641\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כירורגיה כללית א\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"חנ. כללי\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז01-103\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:05\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"90\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה567\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"133049586\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אורולוגיה\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"ניתוחי יום\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז02-105\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 13:19\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"15\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה796\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"816725888\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"כירורגיה כללית ב\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"חנ. כללי\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז01-109\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:11\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"83\",\"kpi\":0,\"direction\":0}]},{\"patId\":0,\"patName\":\"שם פרטי שם משפחה419\",\"nextScreenType\":3,\"sex\":0,\"patientParams\":[{\"paramId\":1,\"cellText\":\"662077564\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"אורולוגיה ילדים\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"ניתוחי יום\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"פז02-102\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"06/08/2020 12:31\",\"kpi\":0,\"direction\":0},{\"paramId\":1,\"cellText\":\"63\",\"kpi\":0,\"direction\":0}]}]},\"screenType\":2,\"updateDate\":\"\\/Date(1596710112674)\\/\",\"title\":\"קבלה\",\"breadCrumbs\":[{\"screenType\":2,\"id\":1,\"Text\":\"קבלת חדרי ניתוח\"}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "3c52ef30-3316-448c-9e70-afd9b7aff4d8",
+      "documentation": "מבנה נתונים עולם תוכן מרפאות",
+      "method": "get",
+      "endpoint": "Clinics/GetUnitData/{id}",
+      "responses": [
+        {
+          "uuid": "5f2521ba-e1e7-41af-93f6-eb8faaa5fb3c",
+          "body": "{\"screenType\":1,\"updateDate\":\"\\/Date(1597923273987)\\/\",\"title\":\"מרפאת עיניים\",\"breadCrumbs\":[],\"unitId\":16,\"cards\":[{\"cardType\":1,\"value\":35,\"text\":\"מוזמנים להיום\",\"showTrend\":false,\"color\":null,\"iconName\":\"patient\",\"percentage\":0},{\"cardType\":1,\"value\":105,\"text\":\"לא הופיעו\",\"showTrend\":false,\"color\":null,\"iconName\":\"noshow\",\"percentage\":0},{\"cardType\":1,\"value\":1,\"text\":\"מתפרצים\",\"showTrend\":false,\"color\":null,\"iconName\":\"walkIn\",\"percentage\":0},{\"cardType\":1,\"value\":166,\"text\":\"הקדימו\",\"showTrend\":false,\"color\":null,\"iconName\":\"clock\",\"percentage\":0},{\"cardType\":1,\"value\":42,\"text\":\"איחרו\",\"showTrend\":false,\"color\":null,\"iconName\":\"clock\",\"percentage\":0}],\"subClinics\":[{\"unitId\":17,\"UnitName\":\"מרפאת OCT\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"26\"},{\"icon\":\"check\",\"text\":\"8\"}]},{\"unitId\":18,\"UnitName\":\"מרפאת עיניים-אורטופטיקה\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"9\"},{\"icon\":\"check\",\"text\":\"0\"}]},{\"unitId\":19,\"UnitName\":\"מרפאת עיניים גלאוקומה\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"0\"},{\"icon\":\"check\",\"text\":\"0\"}]},{\"unitId\":20,\"UnitName\":\"מרפאת עיניים ראיה לקויה\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"9\"},{\"icon\":\"check\",\"text\":\"0\"}]},{\"unitId\":21,\"UnitName\":\"מרפאת עיניים-אולטראסאונד\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"0\"},{\"icon\":\"check\",\"text\":\"0\"}]},{\"unitId\":22,\"UnitName\":\"מרפ עיניים - נוירואופטלמולוגיה\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"15\"},{\"icon\":\"check\",\"text\":\"12\"}]},{\"unitId\":23,\"UnitName\":\"מרפאת עיניים-פלסטיקה\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"0\"},{\"icon\":\"check\",\"text\":\"0\"}]},{\"unitId\":24,\"UnitName\":\"מרפאת עיניים ילדים\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"28\"},{\"icon\":\"check\",\"text\":\"40\"}]},{\"unitId\":25,\"UnitName\":\"מרפאת עיניים\",\"unitData\":[{\"icon\":\"group\",\"text\":\"5\"},{\"icon\":\"clock\",\"text\":\"00:17:38\"},{\"icon\":\"calendar\",\"text\":\"45\"},{\"icon\":\"check\",\"text\":\"22\"}]},{\"unitId\":26,\"UnitName\":\"מרפאת עיניים- קרנית\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"68\"},{\"icon\":\"check\",\"text\":\"62\"}]},{\"unitId\":27,\"UnitName\":\"מרפאת עיניים-רשתית\",\"unitData\":[{\"icon\":\"group\",\"text\":\"0\"},{\"icon\":\"clock\",\"text\":\"00:00:00\"},{\"icon\":\"calendar\",\"text\":\"42\"},{\"icon\":\"check\",\"text\":\"32\"}]},{\"unitId\":28,\"UnitName\":\"שירותים נוספים\",\"unitData\":[{\"icon\":\"group\",\"text\":\"32\"},{\"icon\":\"clock\",\"text\":\"00:15:22\"},{\"icon\":\"calendar\",\"text\":\"180\"},{\"icon\":\"check\",\"text\":\"592\"}]}],\"main\":{\"kpi\":1,\"data\":[{\"color\":\"EC3E60\",\"text\":\"ממתינים\",\"value\":\"37\"},{\"color\":\"FFFFFF\",\"text\":\"טופלו\",\"value\":\"768\"},{\"color\":\"FAD058\",\"text\":\"יומנים פעילים\",\"value\":\"5\"},{\"color\":\"EC3E60\",\"text\":\"זמן המתנה ממוצע\",\"value\":\"00:25:33\"},{\"color\":\"EC3E60\",\"text\":\"זמן שירות ממוצע\",\"value\":\"00:05:04\"},{\"color\":\"EC3E60\",\"text\":\"זמן שהיה ממוצע\",\"value\":\"01:05:17\"}]},\"SideCards\":[{\"icon\":\"clock\",\"title\":\"נציגים פעילים\",\"value\":5,\"valueText\":\"נציגים\",\"color\":\"\",\"percentage\":1,\"buttomText\":null},{\"icon\":\"book\",\"title\":\"יומנים פעילים\",\"value\":12,\"valueText\":\"יומנים\",\"color\":\"\",\"percentage\":0.1,\"buttomText\":\"5 יומנים נפתחו באיחור\"}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "99e4abd5-3246-41b7-9bc6-3cd507afc690",
+      "documentation": "דשבורד חורף",
+      "method": "get",
+      "endpoint": "Winter/GetUnitData/",
+      "responses": [
+        {
+          "uuid": "43239c26-eefa-45cb-98f8-0a96fb4d0906",
+          "body": "{\"departments\":{\"title\":\"מחלקות פנימיות\",\"winterDepartmentTypes\":[{\"typeId\":1,\"typeTitle\":\"מחלקות קורונה\"},{\"typeId\":2,\"typeTitle\":\"פנימיות רגילות\"}],\"departmentsData\":[{\"unitId\":0,\"unitName\":\"תפוסה כללית\",\"typeId\":2,\"tfusa\":0.85,\"tfusaText\":\"85%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"41\"},{\"unitId\":47,\"unitName\":\"פנימית א\",\"typeId\":2,\"tfusa\":0.85,\"tfusaText\":\"85%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"5\"},{\"unitId\":48,\"unitName\":\"פנימית ב\",\"typeId\":2,\"tfusa\":0.82,\"tfusaText\":\"82%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"7\"},{\"unitId\":49,\"unitName\":\"פנימית ג\",\"typeId\":2,\"tfusa\":1.00,\"tfusaText\":\"100%\",\"tfusaKPi\":2,\"kpiColor\":\"EC5656\",\"icon\":\"bed\",\"beds\":\"0\"},{\"unitId\":51,\"unitName\":\"פנימית ד\",\"typeId\":2,\"tfusa\":0.78,\"tfusaText\":\"78%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"8\"},{\"unitId\":52,\"unitName\":\"פנימית ה\",\"typeId\":2,\"tfusa\":1.03,\"tfusaText\":\"103%\",\"tfusaKPi\":2,\"kpiColor\":\"EC5656\",\"icon\":\"bed\",\"beds\":\"-1\"},{\"unitId\":54,\"unitName\":\"פנימית ח\",\"typeId\":2,\"tfusa\":0.97,\"tfusaText\":\"97%\",\"tfusaKPi\":2,\"kpiColor\":\"EC5656\",\"icon\":\"bed\",\"beds\":\"1\"},{\"unitId\":56,\"unitName\":\"פנימית ט\",\"typeId\":2,\"tfusa\":0.50,\"tfusaText\":\"50%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"11\"},{\"unitId\":57,\"unitName\":\"פנימית י\",\"typeId\":2,\"tfusa\":0.71,\"tfusaText\":\"71%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"10\"},{\"unitId\":71,\"unitName\":\"טיפול נמרץ פנו\",\"typeId\":1,\"tfusa\":0.32,\"tfusaText\":\"32%\",\"tfusaKPi\":0,\"kpiColor\":\"44F2A6\",\"icon\":\"bed\",\"beds\":\"26\"},{\"unitId\":78,\"unitName\":\"טיפול נמ. פנימי קורונה\",\"typeId\":1,\"tfusa\":0.15,\"tfusaText\":\"15%\",\"tfusaKPi\":1,\"kpiColor\":\"FAD058\",\"icon\":\"bed\",\"beds\":\"22\"}]},\"sections\":{\"title\":\"שוהים במלר\\\"ד\",\"sectionTypes\":[{\"sectionTypeId\":1,\"title\":\"אגפים נשימתיים\",\"icon\":\"lung\"},{\"sectionTypeId\":2,\"title\":\"אגפים רגילים\",\"icon\":\"bed\"}],\"sections\":[{\"sectionTypeId\":2,\"value\":5,\"text\":\"אגף ד\",\"color\":\"44F2A6\",\"percentage\":0.05},{\"sectionTypeId\":1,\"value\":0,\"text\":\"אגף ה\",\"color\":\"44F2A6\",\"percentage\":0},{\"sectionTypeId\":2,\"value\":16,\"text\":\"אגף א\",\"color\":\"FAD058\",\"percentage\":0.4},{\"sectionTypeId\":1,\"value\":2,\"text\":\"ג 2-3\",\"color\":\"44F2A6\",\"percentage\":0.06},{\"sectionTypeId\":2,\"value\":17,\"text\":\"אגף ב\",\"color\":\"44F2A6\",\"percentage\":0.39},{\"sectionTypeId\":2,\"value\":3,\"text\":\"חדר הלם\",\"color\":\"FAD058\",\"percentage\":0.6},{\"sectionTypeId\":1,\"value\":1,\"text\":\"ג 1\",\"color\":\"44F2A6\",\"percentage\":0.07},{\"sectionTypeId\":1,\"value\":0,\"text\":\"מבמ\",\"color\":\"44F2A6\",\"percentage\":0}]},\"bloodTests\":{\"icon\":\"indicator_flask\",\"title\":\"בדיקות חיוביות\",\"subtitle\":\"24 שעות אחרונות\",\"testsData\":[{\"testDataId\":1,\"value\":2,\"text\":\"מלרד\"},{\"testDataId\":2,\"value\":1,\"text\":\"מחלקות\"},{\"testDataId\":3,\"value\":0,\"text\":\"פרסונל\"}]},\"patientsTrend\":{\"title\":\"מטופלים לאגפים\",\"trends\":[{\"title\":\"אגף ג1\",\"id\":\"1\",\"color\":\"8477D0\"},{\"title\":\"אגף ג2-3\",\"id\":\"2\",\"color\":\"33A6FA\"},{\"title\":\"אגף ה\",\"id\":\"3\",\"color\":\"D177BA\"},{\"title\":\"מבמ\",\"id\":\"4\",\"color\":\"C26E12\"}],\"data\":[{\"name\":\"01/11/20\",\"1\":51,\"2\":17,\"3\":78,\"4\":62},{\"name\":\"02/11/20\",\"1\":86,\"2\":43,\"3\":66,\"4\":17},{\"name\":\"03/11/20\",\"1\":26,\"2\":78,\"3\":31,\"4\":22},{\"name\":\"04/11/20\",\"1\":28,\"2\":51,\"3\":98,\"4\":99},{\"name\":\"05/11/20\",\"1\":92,\"2\":68,\"3\":23,\"4\":26},{\"name\":\"06/11/20\",\"1\":12,\"2\":86,\"3\":76,\"4\":64},{\"name\":\"07/11/20\",\"1\":88,\"2\":97,\"3\":80,\"4\":77},{\"name\":\"08/11/20\",\"1\":91,\"2\":32,\"3\":97,\"4\":72},{\"name\":\"09/11/20\",\"1\":75,\"2\":20,\"3\":28,\"4\":60},{\"name\":\"10/11/20\",\"1\":22,\"2\":74,\"3\":41,\"4\":21}],\"legend\":null},\"occupancyTrend\":{\"title\":\"ממוצע תפוסה\",\"trends\":[{\"title\":\"אגף ג1\",\"id\":\"1\",\"color\":\"8477D0\"},{\"title\":\"אגף ג2-3\",\"id\":\"2\",\"color\":\"33A6FA\"},{\"title\":\"אגף ה\",\"id\":\"3\",\"color\":\"D177BA\"},{\"title\":\"מבמ\",\"id\":\"4\",\"color\":\"C26E12\"}],\"data\":[{\"name\":\"01/11/20\",\"1\":51,\"2\":17,\"3\":78,\"4\":62},{\"name\":\"02/11/20\",\"1\":86,\"2\":43,\"3\":66,\"4\":17},{\"name\":\"03/11/20\",\"1\":26,\"2\":78,\"3\":31,\"4\":22},{\"name\":\"04/11/20\",\"1\":28,\"2\":51,\"3\":98,\"4\":99},{\"name\":\"05/11/20\",\"1\":92,\"2\":68,\"3\":23,\"4\":26},{\"name\":\"06/11/20\",\"1\":12,\"2\":86,\"3\":76,\"4\":64},{\"name\":\"07/11/20\",\"1\":88,\"2\":97,\"3\":80,\"4\":77},{\"name\":\"08/11/20\",\"1\":91,\"2\":32,\"3\":97,\"4\":72},{\"name\":\"09/11/20\",\"1\":75,\"2\":20,\"3\":28,\"4\":60},{\"name\":\"10/11/20\",\"1\":22,\"2\":74,\"3\":41,\"4\":21}],\"legend\":null}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "9b168dc7-1ccf-4d26-ad79-c74056be9d58",
+      "documentation": "get trend data for patients  range = \"D\" or  \"H\"",
+      "method": "get",
+      "endpoint": "winter/GetPatientsTrend/{Range}",
+      "responses": [
+        {
+          "uuid": "024a8052-e403-4f73-a177-5da300a49a74",
+          "body": "{\"title\":\"מטופלים לאגפים\",\"trends\":[{\"title\":\"אגף ג1\",\"id\":\"1\",\"color\":\"8477D0\"},{\"title\":\"אגף ג2-3\",\"id\":\"2\",\"color\":\"33A6FA\"},{\"title\":\"אגף ה\",\"id\":\"3\",\"color\":\"D177BA\"},{\"title\":\"מבמ\",\"id\":\"4\",\"color\":\"C26E12\"}],\"data\":[{\"name\":\"16/10/20\",\"1\":12,\"2\":74,\"3\":35,\"4\":66},{\"name\":\"17/10/20\",\"1\":65,\"2\":38,\"3\":87,\"4\":35},{\"name\":\"18/10/20\",\"1\":31,\"2\":32,\"3\":68,\"4\":43},{\"name\":\"19/10/20\",\"1\":44,\"2\":43,\"3\":47,\"4\":90},{\"name\":\"20/10/20\",\"1\":16,\"2\":61,\"3\":96,\"4\":36},{\"name\":\"21/10/20\",\"1\":18,\"2\":77,\"3\":32,\"4\":73},{\"name\":\"22/10/20\",\"1\":52,\"2\":13,\"3\":24,\"4\":63},{\"name\":\"23/10/20\",\"1\":50,\"2\":55,\"3\":53,\"4\":31},{\"name\":\"24/10/20\",\"1\":15,\"2\":59,\"3\":24,\"4\":26},{\"name\":\"25/10/20\",\"1\":16,\"2\":32,\"3\":78,\"4\":92}],\"legend\":null}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "ecbaca54-4e07-4e4e-bd59-774ca86c9c83",
+      "documentation": "get trend data for Occupancy.     range = \"D\" or  \"H\"",
+      "method": "get",
+      "endpoint": "winter/GetOccupancyTrend/{Range}",
+      "responses": [
+        {
+          "uuid": "2cb08844-4bf2-4ced-8cb0-380be063c049",
+          "body": "{\"title\":\"ממוצע תפוסה\",\"trends\":[{\"title\":\"אגף ג1\",\"id\":\"1\",\"color\":\"8477D0\"},{\"title\":\"אגף ג2-3\",\"id\":\"2\",\"color\":\"33A6FA\"},{\"title\":\"אגף ה\",\"id\":\"3\",\"color\":\"D177BA\"},{\"title\":\"מבמ\",\"id\":\"4\",\"color\":\"C26E12\"}],\"data\":[{\"name\":\"16/10/20\",\"1\":30,\"2\":19,\"3\":25,\"4\":87},{\"name\":\"17/10/20\",\"1\":50,\"2\":24,\"3\":15,\"4\":51},{\"name\":\"18/10/20\",\"1\":14,\"2\":14,\"3\":94,\"4\":43},{\"name\":\"19/10/20\",\"1\":80,\"2\":24,\"3\":63,\"4\":12},{\"name\":\"20/10/20\",\"1\":23,\"2\":92,\"3\":66,\"4\":48},{\"name\":\"21/10/20\",\"1\":31,\"2\":87,\"3\":43,\"4\":34},{\"name\":\"22/10/20\",\"1\":85,\"2\":27,\"3\":67,\"4\":66},{\"name\":\"23/10/20\",\"1\":85,\"2\":45,\"3\":71,\"4\":50},{\"name\":\"24/10/20\",\"1\":11,\"2\":63,\"3\":94,\"4\":10},{\"name\":\"25/10/20\",\"1\":84,\"2\":56,\"3\":19,\"4\":49}],\"legend\":null}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "78f3f3bb-3f36-4a72-9865-5e0ba7968f71",
+      "documentation": "Get blood test results to show on the left side,  ",
+      "method": "get",
+      "endpoint": "winter/GetBloodTestsData/{id}",
+      "responses": [
+        {
+          "uuid": "4e758ad2-32ec-4176-82b8-26dfb6f56898",
+          "body": "{\"title\":\"בדיקות חיוביות מלרד\",\"data\":[{\"color\":\"8577D1\",\"Text\":\"אחות ראשית\",\"subText\":\"בדיקה חיובית\"},{\"color\":\"8577D1\",\"Text\":\"אחות \",\"subText\":\"בדיקה חיובית ראשונה\"},{\"color\":\"8577D1\",\"Text\":\"רופא בכיר\",\"subText\":\"בדיקה חיובית\"},{\"color\":\"8577D1\",\"Text\":\"יועץ\",\"subText\":\"בדיקה חיובית שניה\"},{\"color\":\"8577D1\",\"Text\":\"אחות קבלה\",\"subText\":\"בדיקה חיובית\"}]}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "3bac24bb-e263-4a72-8ffd-dfd1cd10f4f5",
+      "documentation": "base api for liss first page",
+      "method": "get",
+      "endpoint": "Liss/getunitdata",
+      "responses": [
+        {
+          "uuid": "c6ce6727-cf15-4866-987c-bfe53249fac5",
+          "body": "{\n  \"ER\": {\n    \"ErList\": [\n      {\n        \"value\": 11,\n        \"text\": \"מטופלות\",\n        \"color\": \"EC3E60\",\n        \"percentage\": 1,\n        \"time\": \"112\",\n        \"timeText\": \"זמן שירות ממוצע\",\n        \"cardId\": 300,\n        \"cardType\": 3,\n        \"cardPosition\": 1,\n        \"cardTitle\": \"מיון נשים\",\n        \"cardIcon\": \"woman\",\n        \"nextScreenType\": 0\n      },\n      {\n        \"value\": 21,\n        \"text\": \"מטופלות\",\n        \"color\": \"EC3E60\",\n        \"percentage\": 1,\n        \"time\": \"127\",\n        \"timeText\": \"זמן שירות ממוצע\",\n        \"cardId\": 301,\n        \"cardType\": 3,\n        \"cardPosition\": 2,\n        \"cardTitle\": \"מיון - יולדות\",\n        \"cardIcon\": \"birth\",\n        \"nextScreenType\": 0\n      },\n      {\n        \"value\": 0,\n        \"text\": \"מטופלות\",\n        \"color\": \"10CCCB\",\n        \"percentage\": 0.25,\n        \"time\": \"-1\",\n        \"timeText\": \"זמן שירות ממוצע\",\n        \"cardId\": 1259,\n        \"cardType\": 3,\n        \"cardPosition\": 3,\n        \"cardTitle\": \"מיון - מילדותי (אמבולטורי)\",\n        \"cardIcon\": \"birth\",\n        \"nextScreenType\": 0\n      }\n    ]\n  },\n  \"Birth\": {\n    \"iconName\": \"birth\",\n    \"title\": \"חדרי לידה\",\n    \"totalRooms\": 18,\n    \"activeRooms\": 10,\n    \"activeRoomstext\": \"חדרים\",\n    \"activeroomsPercentage\": 0.5555555555555556,\n    \"subtext\": \"חדרים פעילים\",\n    \"color\": null,\n    \"birthStatuses\": [\n      {\n        \"total\": 6,\n        \"color\": \"34A9FF\",\n        \"text\": \"יציאת עובר\"\n      },\n      {\n        \"total\": 1,\n        \"color\": \"EC3E60\",\n        \"text\": \"לידה פעילה\"\n      },\n      {\n        \"total\": 3,\n        \"color\": \"E24D91\",\n        \"text\": \"לפני לידה\"\n      }\n    ]\n  },\n  \"Ishpuz\": {\n    \"iconName\": \"bed\",\n    \"title\": \"מחלקות אשפוז\",\n    \"subtTitle\": \"250 מאושפזים\",\n    \"units\": [\n      {\n        \"unitId\": 39,\n        \"unitName\": \"הריון בסיכון גבוה\",\n        \"value\": 24,\n        \"percentage\": 86,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      },\n      {\n        \"unitId\": 40,\n        \"unitName\": \"חדר לידה\",\n        \"value\": 10,\n        \"percentage\": 71,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      },\n      {\n        \"unitId\": 41,\n        \"unitName\": \"טיפול נמרץ בילוד\",\n        \"value\": 31,\n        \"percentage\": 78,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      },\n      {\n        \"unitId\": 42,\n        \"unitName\": \"יולדות א\",\n        \"value\": 47,\n        \"percentage\": 92,\n        \"kpi\": 2,\n        \"color\": \"EC3E60\"\n      },\n      {\n        \"unitId\": 43,\n        \"unitName\": \"יולדות ב\",\n        \"value\": 24,\n        \"percentage\": 89,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      },\n      {\n        \"unitId\": 44,\n        \"unitName\": \"ילודים א\",\n        \"value\": 50,\n        \"percentage\": 98,\n        \"kpi\": 2,\n        \"color\": \"EC3E60\"\n      },\n      {\n        \"unitId\": 45,\n        \"unitName\": \"ילודים ב\",\n        \"value\": 23,\n        \"percentage\": 58,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      },\n      {\n        \"unitId\": 46,\n        \"unitName\": \"נשים\",\n        \"value\": 32,\n        \"percentage\": 119,\n        \"kpi\": 2,\n        \"color\": \"EC3E60\"\n      },\n      {\n        \"unitId\": 62,\n        \"unitName\": \"יולדות ג\",\n        \"value\": 9,\n        \"percentage\": 69,\n        \"kpi\": 1,\n        \"color\": \"FAD058\"\n      }\n    ]\n  },\n  \"OperationRooms\": [\n    {\n      \"ORoomType\": 3,\n      \"ORoomName\": \"01\",\n      \"ORoomStatus\": 4,\n      \"ORoomColor\": \"10CCCB\",\n      \"ORoomUsage\": \"61%\",\n      \"OUnitName\": \"נשים\",\n      \"ORoomDelay\": false,\n      \"ORoomTime\": \"/Date(1609244231010)/\",\n      \"ORoomCutTime\": \"/Date(1609245251010)/\",\n      \"ORoomData\": [\n        {\n          \"Value\": \"3\",\n          \"Text\": \"ניתוחים\"\n        },\n        {\n          \"Value\": \"לא מוכן\",\n          \"Text\": \"מנותח הבא\"\n        }\n      ],\n      \"ORoomFinishTime\": \"/Date(1609254371069)/\"\n    },\n    {\n      \"ORoomType\": 3,\n      \"ORoomName\": \"02\",\n      \"ORoomStatus\": 4,\n      \"ORoomColor\": \"10CCCB\",\n      \"ORoomUsage\": \"98%\",\n      \"OUnitName\": \"נשים\",\n      \"ORoomDelay\": false,\n      \"ORoomTime\": \"/Date(1609244231010)/\",\n      \"ORoomCutTime\": \"/Date(1609245491010)/\",\n      \"ORoomData\": [\n        {\n          \"Value\": \"3\",\n          \"Text\": \"ניתוחים\"\n        },\n        {\n          \"Value\": \"לא מוכן\",\n          \"Text\": \"מנותח הבא\"\n        }\n      ],\n      \"ORoomFinishTime\": \"/Date(1609262351069)/\"\n    },\n    {\n      \"ORoomType\": 3,\n      \"ORoomName\": \"03\",\n      \"ORoomStatus\": 5,\n      \"ORoomColor\": \"EC9056\",\n      \"ORoomUsage\": \"96%\",\n      \"OUnitName\": null,\n      \"ORoomDelay\": false,\n      \"ORoomTime\": \"/Date(1609245911010)/\",\n      \"ORoomCutTime\": null,\n      \"ORoomData\": [\n        {\n          \"Value\": \"7\",\n          \"Text\": \"ניתוחים\"\n        },\n        {\n          \"Value\": \"לא מוכן\",\n          \"Text\": \"מנותח הבא\"\n        }\n      ],\n      \"ORoomFinishTime\": null\n    },\n    {\n      \"ORoomType\": 3,\n      \"ORoomName\": \"04\",\n      \"ORoomStatus\": 6,\n      \"ORoomColor\": \"EC3E60\",\n      \"ORoomUsage\": \"0%\",\n      \"OUnitName\": null,\n      \"ORoomDelay\": false,\n      \"ORoomTime\": \"/Date(1609222451010)/\",\n      \"ORoomCutTime\": null,\n      \"ORoomData\": [\n        {\n          \"Value\": \"0\",\n          \"Text\": \"ניתוחים\"\n        },\n        {\n          \"Value\": \"לא מוכן\",\n          \"Text\": \"מנותח הבא\"\n        }\n      ],\n      \"ORoomFinishTime\": null\n    }\n  ],\n  \"Title\": \"בית חולים ליס\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "disableTemplating": false,
+          "rulesOperator": "OR",
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyRemovePrefix": false,
+  "hostname": "0.0.0.0",
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  }
+}

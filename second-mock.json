@@ -1,0 +1,628 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "ControlTowerApi",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:4505/"
+        }
+    ],
+    "paths": {
+        "/{world}/GetUnitData": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/{world}/GetUnitData/{id}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "table reservation",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/{world}/GetPatients/{id}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/{world}/GetTrend/{id}/{paramId}/{range}": {
+            "get": {
+                "description": "range: 'H' = hourly, 'D' = daily,  'W' = weekly, 'M' = monthly, 'Y' = yearly",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "paramId",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "range",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/{world}/GetTrend/{id}/{range}": {
+            "get": {
+                "description": "range: 'H' = hourly, 'D' = daily,  'W' = weekly, 'M' = monthly, 'Y' = yearly",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "range",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/messages/GetMessages/{id}": {
+            "get": {
+                "description": "id= start from msgid (for paging) ,   take= how much to take - defult = 20 no need to send param , all - get all msg (include expired) - defult 0",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/{world}/GetPateintData/{id}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "world",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/malrad/getAmbulances": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/Winter/GetPatientsTrend/{range}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "range",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/Winter/GetOccupancyTrend/{range}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "range",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/winter/GetBloodTestsData/{id}": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            },
+                            "": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": ""
+                            }
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/": {
+            "get": {
+                "description": "",
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {}
+                        },
+                        "headers": {
+                            "Access-Control-Allow-Origin": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "*"
+                            },
+                            "Access-Control-Allow-Methods": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                            },
+                            "Access-Control-Allow-Headers": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "example": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
